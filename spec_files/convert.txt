@@ -1,0 +1,11 @@
+kitti_config {
+  root_directory_path: "/workspace/dataset/KITTI_original/training"
+  image_dir_name: "image_2_resized"
+  label_dir_name: "label_2_resized"
+  image_extension: ".jpg"
+  partition_mode: "random"
+  num_partitions:2
+  val_split: 15
+  num_shards: 10
+}
+image_directory_path: "/workspace/dataset/KITTI_original/training"
